@@ -15,7 +15,7 @@ class safeList(list):
 class Solution:
     def candy(self, ratings: List[int]) -> List[int]:
         r""" Since we will do two passes, we will simplify and only check
-        one side at a time.
+        one side at a time which seems to solve it.
         """
 
         ratingsLength = len(ratings)
@@ -32,6 +32,11 @@ class Solution:
         return sum(candyCount)
 
     def candy2(self, ratings: List[int]) -> int:
+        r""" This was my original solution I had that was overly complicated.
+        It works on some cases but can be simplified which is the new candy solution, above.
+
+        One pass get's about 60% of all cases and doing two passes drop it down to 40% success.
+        """
         leftCandyCount = self.calculateCandyCount(ratings)
         rightCandyCount = self.calculateCandyCount(ratings[::-1])[::-1]
         print(leftCandyCount)

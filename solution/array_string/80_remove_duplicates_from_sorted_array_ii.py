@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        r"""This changes the earlier 26 problem that allows up to two
+        r"""This changes the earlier #26 problem that allows up to two
         elements of the same value. We just need to add in another case for this.
         """
 

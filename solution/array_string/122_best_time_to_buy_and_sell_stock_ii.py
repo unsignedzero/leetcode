@@ -28,7 +28,7 @@ class Solution:
         We have to scan per three-element window which implies the first
         and last element are not extremes.
 
-        Sadly does not work.
+        Sadly does not work fully in all test cases.
         """
 
         length = len(prices)

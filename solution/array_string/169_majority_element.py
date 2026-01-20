@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        r""" Since there is a majoring >= n/2 times, we can assume that
+        r""" Since there is a majority, >= n/2 times, of one element, we can assume that
         we just count the current highest one and decrement for any that doesn't
         match and we will find the majority element.
 

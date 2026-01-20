@@ -2,7 +2,7 @@ import random
 
 class RandomizedSet:
     r""" We need to use both a map and list. The list is for random.choice
-    as we cannot use that on a set.
+    as we cannot use that on a set. This is the error we get if we do.
     >> TypeError: 'set' object is not subscriptable
 
     The map is used as a 'set' to see what we have seen and then store the index

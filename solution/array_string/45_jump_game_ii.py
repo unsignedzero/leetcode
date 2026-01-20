@@ -3,7 +3,7 @@ from typing import List
 class Solution:
     def jump(self, nums: List[int]) -> int:
         r"""This is a one sweep where we go left to right and see how far our jumps
-        can make it. If we exhaust all options we increment again and go.
+        can make it. If we exhaust all options, we increment again and go.
         """
 
         elementCount = len(nums) - 1

@@ -3,7 +3,7 @@ from typing import List
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         r""" As we only care about the largest delta, we just track when we get
-        new lows to calculate profit and at the end
+        new lows to calculate profit then and at the end.
         """
 
         # Catches an edge case if there is no change in the input

@@ -5,7 +5,7 @@ class Solution:
         r"""We can calculate the h-index by sorting the citation count,
         reverse it and compare against how many we have seen already.
 
-        Once it declines below, we have the number.
+        Once it goes below, we have the number.
         """
 
         for index, eachValue in enumerate(reversed(sorted(citations))):
