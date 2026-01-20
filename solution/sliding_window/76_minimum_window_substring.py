@@ -14,7 +14,6 @@ class Solution:
         and try to find the shortest string contains that has all letters from t.
         """
 
-
         lenS, lenT = len(s), len(t)
         # Check impossible case
         if lenT > lenS:

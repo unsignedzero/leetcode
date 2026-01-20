@@ -4,6 +4,8 @@ from typing import List
 
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
+        r""" This is a more optimal solution using two pointers.
+        """
 
         sLength, wordLength = len(s), len(words[0])
         wordCount = Counter(words)
