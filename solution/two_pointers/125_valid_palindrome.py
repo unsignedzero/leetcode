@@ -1,7 +1,7 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         r"""We need to sanitize the input by removing non-alphanumeric
-        and matching lower casing before doing a check.
+        and matching lower casing before doing the check.
         """
 
         newString = "".join(c.lower() for c in s if c.isalnum())

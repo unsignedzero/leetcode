@@ -27,7 +27,6 @@ class Solution:
         - + + : One negative, two positives
 
         are all possible triples in which the sum is zero.
-
         """
 
         # We use a set to store as it is possible there are multiple ways
