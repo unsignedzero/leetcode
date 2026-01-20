@@ -64,9 +64,9 @@ class Solution:
         return candyCount
 
 if __name__ == '__main__':
-    a = Solution()
-    #print(a.candy([1,0,2]))
-    #print(a.candy([1,2,2]))
-    #print(a.candy([29,51,87,87,72,12]))
-    print(a.candy([1,2,87,87,87,2,1]))
+    solution = Solution()
+    #print(solution.candy([1,0,2]))
+    #print(solution.candy([1,2,2]))
+    #print(solution.candy([29,51,87,87,72,12]))
+    print(solution.candy([1,2,87,87,87,2,1]))
 
