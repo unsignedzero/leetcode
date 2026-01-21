@@ -40,3 +40,6 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
+    print(solution.lengthOfLongestSubstring("bbbbb"))
+    #print(solution.lengthOfLongestSubstring("abcabcbb"))
+    #print(solution.lengthOfLongestSubstring("abcabcbb"))

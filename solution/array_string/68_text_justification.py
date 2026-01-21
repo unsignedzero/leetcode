@@ -101,3 +101,9 @@ class Solution:
 
         return output
 
+if __name__ == '__main__':
+    solution = Solution()
+    #print(solution.fullJustify(["This", "is", "an", "example", "of", "text", "justification."], 16))
+    print(solution.fullJustify(["What","must","be","acknowledgment","shall","be"], 16))
+    #print(solution.fullJustify(["Science","is","what","we","understand","well","enough","to","explain","to","solution","computer.","Art","is","everything","else","we","do"], 20))
+

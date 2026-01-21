@@ -113,3 +113,7 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
+    #print(solution.findSubstring("barfoothefoobarman", ["foo","bar"]))
+    #print(solution.findSubstring("wordgoodgoodgoodbestword", ["word","good","best","word"]))
+    #print(solution.findSubstring("barfoofoobarthefoobarman", ["bar","foo","the"]))
+    print(solution.findSubstring("wordgoodgoodgoodbestword", ["word","good","best","good"]))

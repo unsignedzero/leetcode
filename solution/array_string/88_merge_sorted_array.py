@@ -27,3 +27,7 @@ class Solution:
                 nums1[currentPos] = nums1[leftPos]
                 leftPos -= 1
 
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.merge([[1,3],[2,6],[8,10],[15,18]]))
+

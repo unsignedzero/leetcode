@@ -42,3 +42,19 @@ class RandomizedSet:
     def getRandom(self) -> int:
         return random.choice(self.data)
 
+if __name__ == '__main__':
+    solution = RandomizedSet()
+    solution.insert(0)
+    solution.insert(1)
+    solution.remove(0)
+    solution.insert(2)
+    solution.remove(1)
+    print(solution.getRandom())
+
+    solution = RandomizedSet()
+    solution.remove(0)
+    solution.remove(1)
+    solution.insert(1)
+    solution.getRandom()
+    solution.remove(0)
+    print(solution.insert(0))
