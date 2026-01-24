@@ -31,9 +31,6 @@ class Solution:
 
         splitPoint = len(leftInorder)
         leftPreorder, rightPreorder = newPreorder[:splitPoint], newPreorder[splitPoint:]
-        #rightVal = rightInorder[0]
-        #rightIndex = preorder.index(rightVal)
-        #leftPreorder, rightPreorder = preorder[1:rightIndex], preorder[rightIndex:]
         #print(f"{splitPoint=}, {leftPreorder=}, {rightPreorder=}")
 
         if leftPreorder and leftInorder:
