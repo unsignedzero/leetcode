@@ -9,6 +9,8 @@ class TreeNode:
 
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        r""" Swap all left and right nodes of a tree
+        """
 
         # Reject on an empty node
         if not root:

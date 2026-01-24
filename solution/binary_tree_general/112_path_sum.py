@@ -8,6 +8,9 @@ class TreeNode:
 
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+        r""" Check if values in path add up to targetSum
+        """
+
         if not root:
             return False
 

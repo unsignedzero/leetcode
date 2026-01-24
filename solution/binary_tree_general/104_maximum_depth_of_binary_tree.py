@@ -9,6 +9,8 @@ class TreeNode:
 
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
+        r""" Count the depth as we go
+        """
 
         if not root:
             return 0

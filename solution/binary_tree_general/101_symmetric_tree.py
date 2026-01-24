@@ -9,6 +9,8 @@ class TreeNode:
 
 class Solution:
     def checkSide(self, rootLeft: Optional[TreeNode], rootRight: Optional[TreeNode]) -> bool:
+    	r""" Straightforward approach of checking left and right node.
+    	"""
 
         # Check root node
         if not rootLeft and not rootRight:
